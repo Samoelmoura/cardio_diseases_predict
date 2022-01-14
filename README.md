@@ -73,7 +73,7 @@ https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
 12. Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
 ## 0.4 Hipóteses Assumidas:
-1. Os dados são balanceados em relação à target, 50% aproximadamente das amostras, são de pessoas com problemas cardíacos. Tal fato não é percebido na população como um todo, portanto, entende-se que há um viés de seleção, onde houve intenção de incluir no projeto a mesma quantidade de caríacos e não cardíacos.
+1. Os dados são balanceados em relação à target, 50% aproximadamente das amostras, são de pessoas com problemas cardíacos. Tal fato não é percebido na população como um todo, portanto, entende-se que há um viés de seleção, onde houve intenção de incluir no projeto a mesma quantidade de cardíacos e não cardíacos.
 
 ## 0.5 Sumário:
 
