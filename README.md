@@ -1,5 +1,5 @@
 ## Estágio do projeto:
-Ciclo 2: Descriptive statistics
+Ciclo 3: Data cleaning
 
 ## 0.1 Contexto
 
