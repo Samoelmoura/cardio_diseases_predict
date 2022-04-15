@@ -1,3 +1,7 @@
+# Cardio Diagnostic Company
+## Cardiovascular Disease Prediction
+![](images/capa.jpg)
+
 ## Estágio do projeto:
 Ciclo 3: Data cleaning
 
