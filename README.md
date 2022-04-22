@@ -2,10 +2,7 @@
 ## Cardiovascular Disease Prediction
 ![](images/capa.jpg)
 
-## Estágio do projeto:
-Ciclo 3: Data cleaning
-
-## 0.1 Contexto
+## 1.0 Contexto:
 
 A Empresa Cardio Catch Diseases (CCD)
 A Cadio Catch Diseases é uma empresa especializada em detecção de doenças cardíacas em estágios iniciais. O seu modelo de negócio é do tipo Serviço, ou seja, a empresa ofereço o diagnóstico precoce de uma doença cardiovascular por um certo preço.
@@ -22,25 +19,34 @@ https://sejaumdatascientist.com/projeto-de-data-science-diagnostico-precoce-de-d
 Projeto original disponível na plataforma Kaggle
 https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
 
-## 0.2 Planejamento da Solução:
+## 2.0 Ferramentas e Requisitos
+1. Linguagem: Python
+2. Desenvolvimento e entrega do projeto: Jupyter Notebook
+3. Cloud: Heroku
+4. Plataforma de request: Google Sheets
+## 3.0 Business Assumptions
+1. Valores de pressão, peso e altura fora da escala natural para seres humanos em proporções de multiplos de 10 (dez vezes maiores ou menores, cem vezes maiores ou menores) serão tratados como erros de imput e trazidos para a escala "normal".
+2. Amostras que contiverem valores de pesos dentro do range "normal" da altura, e altura dentro do range natural de peso, serão tratados e considerados como invertidos. 
+3. Os dados são balanceados em relação à target, 50% aproximadamente das amostras, são de pessoas com problemas cardíacos. Tal fato não é percebido na população como um todo, portanto, entende-se que há um viés de seleção, onde houve intenção de incluir no projeto a mesma quantidade de cardíacos e não cardíacos.
+## 4.0 Planejamento da Solução:
 
-### 0.2.1 Objetivos:
+### 4.1 Objetivos:
 
 1. Qual a Acurácia e a Precisão da ferramenta?
 2. Quanto lucro a Cardio Catch Diseases passará a ter com a nova ferramenta?
 3. Qual a Confiabilidade do resultado dados pela nova ferramenta?
 
-### 0.2.2 Entregas:
+### 4.2 Entregas:
 1. Alguns parâmetros da métrica
 2. Um número que representa o total de retorno financeiro
 3. Parâmetros de credibilidade
 
-### 0.2.3 Estratégia da solução:
+### 4.3 Estratégia da solução:
 1. Tratamento dos dados, feature engineering, seleção de features, treinamento do modelo, configuração de hiperparâmetros, seleção de modelos.
 2. Definir baseline, custos, faturamentos e margens envolvidas no cenário "AS IS". Utilizar métrica de performance do modelo para projetar o cenário "TO BE". Calcular diferenças de margens entre os cenários.
 3. Realizar calculos por inferência bayesiana
 
-### 0.2.4 Planejamento da execução:
+### 4.4 Planejamento da execução:
 
 1. Ciclo 1: Criar um pipeline de dados funcional de ponta a ponta, desde a coleta dos dados até o treinamento do modelo
 2. Ciclo 2: Estatística de primeira e segunda ordens
@@ -53,7 +59,12 @@ https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
 9. Ciclo 9: Aperfeiçoamento da performance de predições
 10. Ciclo 10: Deploy
 
-## 0.3 Glossário de Features:
+## 5.0 Top 3 Data Insights:
+## 6.0 Machine Learning Model Aplicado:
+## 7.0 Machine Learning Performance:
+## 8.0 Business Results:
+## 9.0 Lições Aprendidas
+## 10.0 Glossário de Features:
 
 ### Natureza das features:
 
@@ -76,9 +87,6 @@ https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
 11. Physical activity | Subjective Feature | active | binary |
 12. Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
-## 0.4 Hipóteses Assumidas:
-1. Os dados são balanceados em relação à target, 50% aproximadamente das amostras, são de pessoas com problemas cardíacos. Tal fato não é percebido na população como um todo, portanto, entende-se que há um viés de seleção, onde houve intenção de incluir no projeto a mesma quantidade de cardíacos e não cardíacos.
-
-## 0.5 Sumário:
-
-## 0.6 Resultados e Conclusão:
+## 11.0 Próximos Passos: Comparar as performances entre os modelos de Machine Learning
+## 12.0 Estágio do projeto:
+![](images/estagio.jpg)
