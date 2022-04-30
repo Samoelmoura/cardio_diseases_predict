@@ -1,6 +1,6 @@
 # Cardio Diagnostic Company
 ## Cardiovascular Disease Prediction
-![](images/capa.jpg)
+![](img/capa.jpg)
 
 ## 1.0 Contexto:
 
@@ -89,4 +89,4 @@ https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
 
 ## 11.0 Próximos Passos: Comparar as performances entre os modelos de Machine Learning
 ## 12.0 Estágio do projeto:
-![](images/estagio.JPG)
+![](img/estagio.JPG)
