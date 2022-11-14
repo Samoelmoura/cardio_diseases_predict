@@ -13,12 +13,6 @@ O preço do diagnóstico, pago pelo cliente, varia de acordo com a precisão con
 
 Observe que a variação da precisão dada pelo time de especialistas, faz com que a empresa tenha ora uma operação com lucro, receita maior que o custo, ora uma operação com prejuízo, receita menor que o custo. Essa instabilidade do diagnóstico faz com que a empresa tenha um Cashflow imprevisível.
 
-Projeto retirado do Blog Seja Um Data Scientist
-https://sejaumdatascientist.com/projeto-de-data-science-diagnostico-precoce-de-doencas-cardiovasculares/
-
-Projeto original disponível na plataforma Kaggle
-https://www.kaggle.com/sulianova/cardiovascular-disease-dataset
-
 ## 2.0 Ferramentas e Requisitos
 1. Linguagem: Python
 2. Desenvolvimento e entrega do projeto: Jupyter Notebook
